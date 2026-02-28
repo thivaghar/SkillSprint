@@ -28,10 +28,13 @@
    - Output Directory: `dist`
 
 6. **Environment Variables:**
-   Add under "Environment Variables":
+   - Go to **Project Settings** → **Environment Variables**
+   - Click **"Add"** and set:
    ```
-   VITE_API_URL = https://your-backend-url.railway.app/api/v1
+   Name: VITE_API_URL
+   Value: https://your-backend-url.railway.app/api/v1
    ```
+   - Apply to all environments (Production, Preview, Development)
 
 7. **Click "Deploy"** 🎉
 
