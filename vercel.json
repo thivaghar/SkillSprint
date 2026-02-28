@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd frontend && npm run build",
+  "buildCommand": "cd frontend && npm ci && npm run build",
   "outputDirectory": "frontend/dist",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- frontend/",
   "rewrites": [
     {
       "source": "/(.*)",
